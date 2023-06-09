@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 const authRouter = require("./routes/auth");
 const productRouter = require("./routes/product");
 const userRouter = require("./routes/user");
-const DB = "mongodb+srv://karthik:karthik123@cluster0.vie2q.mongodb.net/test";
+const DB =
+  "mongodb+srv://karthik:karthik123@cluster0.vie2q.mongodb.net/selfout";
 const PORT = 8080;
 const app = express();
 
